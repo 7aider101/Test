@@ -1,0 +1,233 @@
+<!-- admin_option1.html --><!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لوحة التحكم - الخيار الأول</title>
+  <!-- AdminLTE CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ColorlibHQ/AdminLTE@master/dist/css/adminlte.min.css">
+  <!-- Google Font: Cairo -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Cairo', sans-serif; }
+    .user-panel img { border-radius: 50%; }
+    .search-bar { width: 100%; padding: 8px; border-radius: 4px; border: 1px solid #ced4da; }
+    .badge-status { font-size: .9rem; }
+  </style>
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-light">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a></li>
+      <li class="nav-item d-none d-sm-inline"><a href="#" class="nav-link">الرئيسية</a></li>
+    </ul>
+    <form class="form-inline ml-auto">
+      <input class="search-bar" type="search" placeholder="بحث" aria-label="Search">
+    </form>
+    <ul class="navbar-nav mr-3">
+      <li class="nav-item dropdown user-menu">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+          <img src="https://via.placeholder.com/32" class="user-image" alt="User Image">
+          <span class="d-none d-md-inline">أدمن</span>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <li class="user-header bg-primary">
+            <img src="https://via.placeholder.com/90" class="img-circle" alt="User Image">
+            <p>أدمن - مشرف عام<small>منذ يناير 2025</small></p>
+          </li>
+          <li class="user-footer">
+            <a href="#" class="btn btn-default btn-flat">الملف الشخصي</a>
+            <a href="#" class="btn btn-default btn-flat float-left">تسجيل الخروج</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <!-- Sidebar -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <a href="#" class="brand-link text-center">
+      <span class="brand-text font-weight-semibold">نظام المكالمات اليدوي</span>
+    </a>
+    <div class="sidebar">
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image"><img src="https://via.placeholder.com/160" alt="User Image"></div>
+        <div class="info"><a href="#" class="d-block">أحمد علي</a></div>
+      </div>
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview">
+          <li class="nav-item"><a href="#stats" class="nav-link active"><i class="nav-icon fas fa-chart-line"></i><p>الإحصائيات اليومية</p></a></li>
+          <li class="nav-item"><a href="#import" class="nav-link"><i class="nav-icon fas fa-file-excel"></i><p>استيراد ملف Excel</p></a></li>
+          <li class="nav-item"><a href="#settings" class="nav-link"><i class="nav-icon fas fa-cogs"></i><p>الإعدادات</p></a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <!-- Content Wrapper -->
+  <div class="content-wrapper p-4">
+    <!-- Content Header -->
+    <section class="content-header mb-3">
+      <h1>لوحة إدارة المكالمات</h1>
+      <small>النظام اليدوي البسيط</small>
+    </section>
+    <!-- Main Content -->
+    <section class="content">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mb-3">
+          <div class="info-box shadow">
+            <span class="info-box-icon bg-success"><i class="fas fa-check"></i></span>
+            <div class="info-box-content">
+              <span class="info-box-text">موافق</span>
+              <span class="info-box-number">58</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-3">
+          <div class="info-box shadow">
+            <span class="info-box-icon bg-danger"><i class="fas fa-times"></i></span>
+            <div class="info-box-content">
+              <span class="info-box-text">رفض</span>
+              <span class="info-box-number">12</span>
+            </ndiv>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-3">
+          <div class="info-box shadow">
+            <span class="info-box-icon bg-warning"><i class="fas fa-phone-slash"></i></span>
+            <div class="info-box-content">
+              <span class="info-box-text">مشغول/خارج الخدمة</span>
+              <span class="info-box-number">5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card shadow">
+        <div class="card-header bg-info text-white">
+          <h3 class="card-title">تفاصيل المكالمات</h3>
+        </div>
+        <div class="card-body p-0">
+          <table class="table table-hover text-center">
+            <thead class="thead-light">
+              <tr><th>الاسم</th><th>التاريخ</th><th>الحالة</th><th>ملاحظات</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>سارة محمد</td><td>2025-05-25 10:30</td>
+                <td><span class="badge badge-success badge-status">موافق</span></td>
+                <td>اتصال ناجح</td>
+              </tr>
+              <tr>
+                <td>خالد حسين</td><td>2025-05-25 11:15</td>
+                <td><span class="badge badge-danger badge-status">رفض</span></td>
+                <td>رفض المكالمة</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card-footer clearfix">
+          <ul class="pagination pagination-sm m-0 float-left">
+            <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/gh/ColorlibHQ/AdminLTE@master/plugins/jquery/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ColorlibHQ/AdminLTE@master/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ColorlibHQ/AdminLTE@master/dist/js/adminlte.min.js"></script><!-- admin_option2.html --><!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لوحة التحكم - الخيار الثاني</title>
+  <!-- AdminLTE CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ColorlibHQ/AdminLTE@master/dist/css/adminlte.min.css">
+  <!-- Google Font: Cairo -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Cairo', sans-serif; }
+    .nav-sidebar > .nav-item .nav-link:hover { background-color: #17a2b8; color: #fff; }
+    .chart-container { position: relative; height: 300px; }
+  </style>
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-dark bg-info">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a></li>
+      <li class="nav-item d-none d-sm-inline"><a href="#" class="nav-link">لوحة التحكم</a></li>
+    </ul>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a href="#" class="nav-link">مستويات الدخول</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">الإحصائيات الحية</a></li>
+    </ul>
+  </nav>
+  <!-- Sidebar -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <a href="#" class="brand-link text-center"><span class="brand-text font-weight-light">نظام قاعدة البيانات</span></a>
+    <div class="sidebar">
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview">
+          <li class="nav-item has-treeview menu-open">
+            <a href="#" class="nav-link active"><i class="nav-icon fas fa-database"></i><p>لوحة البيانات<i class="right fas fa-angle-left"></i></p></a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item"><a href="#roles" class="nav-link"><i class="far fa-circle nav-icon"></i><p>مستويات الدخول</p></a></li>
+              <li class="nav-item"><a href="#live" class="nav-link"><i class="far fa-circle nav-icon"></i><p>الإحصائيات الحية</p></a></li>
+              <li class="nav-item"><a href="#distributor" class="nav-link"><i class="far fa-circle nav-icon"></i><p>توزيع الأرقام</p></a></li>
+              <li class="nav-item"><a href="#performance" class="nav-link"><i class="far fa-circle nav-icon"></i><p>أداء الموظفين</p></a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <!-- Content Wrapper -->
+  <div class="content-wrapper p-4">
+    <!-- Header -->
+    <section class="content-header mb-3">
+      <h1>إدارة المكالمات - قاعدة بيانات</h1>
+      <small>إحصائيات يومية وشهرية متقدمة</small>
+    </section>
+    <!-- KPI Boxes -->
+    <section class="content">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-3"><div class="small-box bg-primary shadow"><div class="inner"><h3>230</h3><p>محاولات الاتصال</p></div><div class="icon"><i class="fas fa-phone"></i></div></div></div>
+        <div class="col-lg-3 col-md-6 mb-3"><div class="small-box bg-success shadow"><div class="inner"><h3>180</h3><p>تم الرد</p></div><div class="icon"><i class="fas fa-headset"></i></div></div></div>
+        <div class="col-lg-3 col-md-6 mb-3"><div class="small-box bg-warning shadow"><div class="inner"><h3>30</h3><p>لم يُرد عليها</p></div><div class="icon"><i class="fas fa-phone-slash"></i></div></div></div>
+        <div class="col-lg-3 col-md-6 mb-3"><div class="small-box bg-danger shadow"><div class="inner"><h3>20</h3><p>مكررة</p></div><div class="icon"><i class="fas fa-sync-alt"></i></div></div></div>
+      </div>
+      <!-- Charts -->
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card shadow">
+            <div class="card-header"><h3 class="card-title">مكالمات الشهر الحالي</h3></div>
+            <div class="card-body"><canvas id="callsChart"></canvas></div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card shadow">
+            <div class="card-header"><h3 class="card-title">أداء الموظفين</h3></div>
+            <div class="card-body"><canvas id="performanceChart"></canvas></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/gh/ColorlibHQ/AdminLTE@master/plugins/jquery/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ColorlibHQ/AdminLTE@master/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ColorlibHQ/AdminLTE@master/dist/js/adminlte.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  // بيانات وهمية للرسوم
+  const callsCtx = document.getElementById('callsChart').getContext('2d');
+  new Chart(callsCtx, { type: 'line', data: { labels: ['1','5','10','15','20','25','30'], datasets: [{ label: 'المكالمات', data: [20,50,75,100,125,150,230], fill: false }] }, options: { responsive: true } });
+  const perfCtx = document.getElementById('performanceChart').getContext('2d');
+  new Chart(perfCtx, { type: 'bar', data: { labels: ['أحمد','سارة','خالد','ليلى'], datasets: [{ label: 'مكالمات ناجحة', data: [50,60,40,30] }] }, options: { responsive: true } });
+</script>
